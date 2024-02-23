@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang tuyển sinh</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: beige;
+        }
+        header h1{
+            font-size: 40px;
+            color: blue;
+            text-align:center;
+        }
+        header h2{
+            font-size: 35px;
+            color: #222;
+            text-align: center;
+        }
+        main table tr th td{
+            border: solid 2px black;
+            background: #fff;
+            
+
+        }
+        main table{
+            margin-top: 20px;
+            border-collapse: collapse;
+            display: table;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        main #A{
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/images/logoDN.png" alt="">
+        <h1>THÔNG TIN TUYỂN SINH</h1>
+        <h1>Mã trường Đại học Đại Nam: ĐNU</h1>
+        <h2>Đối với chương trình đại trà</h2>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>TT</th>
+                <th>NGÀNH</th>
+                <th>MÃ NGÀNH</th>
+                <th>TỔ HỢP XÉT TUYỂN</th>
+                <th>THỜI GIAN ĐÀO TẠO</th>
+                <th>CHỈ TIÊU</th>
+            </tr>
+            <tr>
+                <th colspan="6" id="A">A.KHỐI NGÀNH SỨC KHỎE </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Y khoa</td>
+                <td>7720101</td>
+                <td>A00</td>
+                <td>6 năm</td>
+                <td>380</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dược học</td>
+                <td>7720201</td>
+                <td>A00</td>
+                <td>4,5 năm</td>
+                <td>700</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Điều dưỡng</td>
+                <td>7720301</td>
+                <td>B00</td>
+                <td>3,5 năm</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <th colspan="6" id="A">A.KHỐI NGÀNH KỸ THUẬT-CÔNG NGHỆ</th>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>CNTT</td>
+                <td>7480201</td>
+                <td>A00</td>
+                <td>3,5 năm</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Khoa học máy tính</td>
+                <td>7480101</td>
+                <td>A00</td>
+                <td>4 năm</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Công nghệ kĩ thuật oto</td>
+                <td>7510205</td>
+                <td>A00</td>
+                <td>4,5 năm</td>
+                <td>250</td>
+            </tr>
+            <td>A00</td>
+                <td>4 năm</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <th colspan="6" id="A">C. KHỐI NGÀNH KINH TẾ - KINH DOANH</th>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Quản trị kinh doanh <br> 
+                - CN Quản trị kinh doanh tổng hợp <br>
+                - CN Quản trị nhân lực</td>
+                <td>7340101</td>
+                <td>A00</td>
+                <td>3 năm</td>
+                <td>500</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <h1>ĐĂNG KÝ XÉT TUYỂN NGAY HÔM NAY</h1>
+        <p>Đăng ký để nhận tư vấn</p>
+        <form action="">
+            <input type="text" name="fname" value="Họ và tên">
+            <label for="date">Ngày sinh</label>
+            <input type="date" name="date"><br>
+            <input type="text" name="phone"><br>
+            <input type="email" name="email"><br>
+            <input type="text" name="address"><br>
+            <label for="">
+                Chọn ngành muốn học
+            </label>
+            <select name="select" id="">
+                <option value="">Y khoa </option>
+                <option value="">Dược học </option>
+                <option value="">Điều dưỡng </option>
+                <option value="">CNTT</option>
+                <option value="">KHMT </option>
+                <option value="">CKO</option>
+            </select><br>
+            <input type="submit" value="Hoàn thành đăng kí">
+            <button>Hoàn thành đăng kí</button>
+        </form>
+    </footer>
+</body>
+</html>
